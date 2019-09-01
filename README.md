@@ -1,24 +1,7 @@
 # 雷士达项目管理系统
 
-## 人员安排
-- 人员安排：李昆洪
-- 需求文档：严鸿炜
-- 开发计划：李昆洪
-- 接口文档：严鸿炜
-- ui设计：王亚丽
-- 功能说明：严鸿炜
-- 接口编写：李景新
-- 系统设计：李昆洪
-- 数据库设计：李昆洪
-- 前端设计与编写：张光辉
-- 测试：
-  - 单元测试：李景新（pytest）
-  - 接口测试：李昆洪（postman）
-  - 功能测试：王亚丽（测试用例编写+测试执行+自动化selenium）
-  - 性能测试：李昆洪（loadrunner）
 
-
-## 界面设计
+## 界面
 
 ### 登录（平台独立使用账号密码登录）
 
@@ -69,6 +52,70 @@
   - 查看单个项目进度
   - 添加汇报
 - 查看老板留言消息
+
+
+## 数据库设计
+### user 用户表
+
+字段 |名称| 类型 | 备注
+---|---|---|---
+id|用户id | int |主键、自增
+name|姓名 | varchar|
+password|密码|char(20)|采用字符串+md5加密
+authority|权限|char(20)|root或salesman
+
+### project 项目表
+
+字段 |名称| 类型 | 备注
+---|---|---|---
+id|项目id|int|主键、自增
+name|名称|char(20)|
+source|来源|char(30)|
+contacts|对方联系人|char(20)|
+telephone|联系电话|char(20)|
+introduction|简介|char(256)|
+time|创建时间|Date|自动生成
+effective|是否有效|int|0有效，1失效
+
+### report 汇报表
+
+字段 |名称| 类型 | 备注
+---|---|---|---
+id|汇报表id|int|主键、自增
+proid|项目id|int|外键关联项目表
+reporter|汇报人|char(20)|
+capital|资金明细|char(256)|
+workable|落实情况|char(1024)|
+invoice|开票|char(256)|
+progress|进展|char(1024)|
+time|汇报时间|Date|自动生成
+other|其他|char(1024)|
+effective|是否有效|int|0有效，1失效
+
+### Message 留言表
+
+字段 |名称| 类型 | 备注
+---|---|---|---
+id|留言id|int|主键、自增
+report_id|汇报id|int|外键关联汇报表
+read|是否已读|int|0未读，1已读
+effective|是否有效|int|0有效，1失效
+time|留言时间|Date|自动生成
+
+### user-project用户项目表
+
+字段 |名称| 类型 | 备注
+---|---|---|---
+id|用户项目id|int|主键、自增|
+user_id|用户id|int|外键关联用户id
+pro_id|项目id|int|外键关联项目id
+
+### user-str 用户密文表
+字段 |名称| 类型 | 备注
+---|---|---|---
+id|用户密文表id|int|主键自增
+user_id|用户id|int|外键关联用户表
+str|加密字符串|char(10)|随机生成
 
 
 ## 接口文档
