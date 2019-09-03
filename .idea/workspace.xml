@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162be743-8545-4324-abbe-52493f7c1896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LSDProjectManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LSDProjectManagementSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSDProjectManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LSDProjectManagementSystem/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSDProjectManagementSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LSDProjectManagementSystem/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsd/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lsd/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsd/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lsd/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsd/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lsd/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,28 +44,6 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                  <state split_layout="SECOND">
-                    <first_editor relative-caret-position="5625">
-                      <caret line="225" selection-start-line="225" selection-end-line="225" />
-                    </first_editor>
-                    <second_editor />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -92,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lsd/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="275">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -104,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="das://9691b2c9-de54-45bc-895e-6255a817b4f6/schema/main/table/lsd_user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="ddbe55ff-3552-4d7e-9253-97eaf5ccec96">
+            <state projectRestartId="caf446f6-fcce-4105-8c49-afe37e360aeb">
               <filtering>
                 <filter text="" />
               </filtering>
@@ -133,14 +104,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lsd/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
+            <state relative-caret-position="547">
               <caret line="287" selection-start-line="287" selection-end-line="287" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -151,6 +131,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -169,11 +150,14 @@
         <option value="$PROJECT_DIR$/LSDProjectManagementSystem/urls.py" />
         <option value="$PROJECT_DIR$/lsd/models.py" />
         <option value="$PROJECT_DIR$/lsd/views.py" />
+        <option value="$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore.py" />
+        <option value="$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1342" />
+    <option name="x" value="954" />
+    <option name="y" value="68" />
     <option name="width" value="1404" />
     <option name="height" value="1754" />
   </component>
@@ -182,7 +166,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LSDProjectManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LSDProjectManagementSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LSDProjectManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LSDProjectManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="LSDProjectManagementSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
@@ -190,7 +192,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SMS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -279,17 +281,17 @@
       <workItem from="1567241868109" duration="352000" />
       <workItem from="1567311520288" duration="20677000" />
       <workItem from="1567423784493" duration="20272000" />
+      <workItem from="1567522178348" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41301000" />
+    <option name="totallyTimeSpent" value="41446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="671" y="0" width="702" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="477" y="34" width="702" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27015558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26934984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,7 +308,6 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36813924" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32980132" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,6 +315,7 @@
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3281704" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27015558" />
@@ -401,9 +403,19 @@
     <entry file="file://$PROJECT_DIR$/lsd/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/lsd/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://9691b2c9-de54-45bc-895e-6255a817b4f6/schema/main/table/lsd_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ddbe55ff-3552-4d7e-9253-97eaf5ccec96">
+        <state projectRestartId="caf446f6-fcce-4105-8c49-afe37e360aeb">
           <filtering>
             <filter text="" />
           </filtering>
@@ -427,16 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lsd/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -447,13 +449,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lsd/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="547">
           <caret line="287" selection-start-line="287" selection-end-line="287" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
