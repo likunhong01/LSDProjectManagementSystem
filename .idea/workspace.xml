@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162be743-8545-4324-abbe-52493f7c1896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="das://9691b2c9-de54-45bc-895e-6255a817b4f6/schema/main/table/lsd_user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="caf446f6-fcce-4105-8c49-afe37e360aeb">
+            <state projectRestartId="b93930de-70f1-4028-8d82-7e1a78774286">
               <filtering>
                 <filter text="" />
               </filtering>
@@ -107,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lsd/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="7100">
               <caret line="287" selection-start-line="287" selection-end-line="287" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -117,7 +116,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="19" selection-start-column="19" selection-end-column="19" />
@@ -175,11 +174,6 @@
               <item name="LSDProjectManagementSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="LSDProjectManagementSystem" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LSDProjectManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LSDProjectManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="LSDProjectManagementSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -205,6 +199,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10783\PycharmProjects\LSDProjectManagementSystem" />
       <recent name="C:\Users\10783\PycharmProjects\LSDProjectManagementSystem\templates" />
     </key>
   </component>
@@ -282,16 +277,17 @@
       <workItem from="1567311520288" duration="20677000" />
       <workItem from="1567423784493" duration="20272000" />
       <workItem from="1567522178348" duration="145000" />
+      <workItem from="1567525228297" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41446000" />
+    <option name="totallyTimeSpent" value="41468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="477" y="34" width="702" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26934984" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27708977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,6 +389,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="5625">
+            <caret line="225" selection-start-line="225" selection-end-line="225" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore.py" />
     <entry file="file://$PROJECT_DIR$/LSDProjectManagementSystem/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -415,7 +422,7 @@
     </entry>
     <entry file="das://9691b2c9-de54-45bc-895e-6255a817b4f6/schema/main/table/lsd_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="caf446f6-fcce-4105-8c49-afe37e360aeb">
+        <state projectRestartId="b93930de-70f1-4028-8d82-7e1a78774286">
           <filtering>
             <filter text="" />
           </filtering>
@@ -439,22 +446,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="5625">
-            <caret line="225" selection-start-line="225" selection-end-line="225" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lsd/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="7100">
           <caret line="287" selection-start-line="287" selection-end-line="287" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -462,7 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSDProjectManagementSystem/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
